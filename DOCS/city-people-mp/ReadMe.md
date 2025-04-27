@@ -6,18 +6,19 @@ Welcome to the **City People Mega-Pack**! This package provides a diverse collec
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [What's New in v1.3.0](#whats-new-in-v130)
-3. [Getting Started](#getting-started)
-4. [Demo Scenes](#demo-scenes)
+2. [What's New](#whats-new)
+3. [Characters Specs](#Characters-specs)
+4. [Getting Started](#getting-started)
+5. [Demo Scenes](#demo-scenes)
    - [Demo Scene 1: Character Showcase](#demo-scene-1-character-showcase)
    - [Demo Scene 2: Isometric City](#demo-scene-2-isometric-city)
-5. [Character Groups](#character-groups)
-6. [Animations](#animations)
-7. [CityPeople Component Script](#citypeople-component-script)
-8. [Palette System and UV](#palette-system-and-uv)
-9. [URP Support](#urp-support)
-10. [Unity 6 Compatibility](#unity-6-compatibility)
-11. [Support](#support)
+6. [Character Groups](#character-groups)
+7. [Animations](#animations)
+8. [CityPeople Component Script](#citypeople-component-script)
+9. [Palette System and UV](#palette-system-and-uv)
+10. [URP Support](#urp-support)
+11. [Unity 6 Compatibility](#unity-6-compatibility)
+12. [Support](#support)
 
 ---
 
@@ -25,15 +26,28 @@ Welcome to the **City People Mega-Pack**! This package provides a diverse collec
 
 The **City People Mega-Pack** is designed to populate your urban environments with a rich variety of animated characters. Whether you're building a bustling cityscape, a serene town, or an interactive simulation, this pack offers the assets you need to create a dynamic and inclusive world. The Polyart style provides optimized characters, making them suitable for low-end devices and AR/VR simulations.
 
-## What's New in v1.3.0
+## What's New
+### v1.3.1
+![](images/construction_update1.png)
+- **Added more construction workers**: New tradesperson man, tradesperson woman and thick (big) construction man. 
+- **Added construction tools**: New bonus props: Drill, hammer, hand saw, wrench and pipe wrench.
+- **Construction** has now its own separated folder from **professions** characters.
 
+### v1.3.0
+![](images/disabilities_new.png)
 - **Enhanced Demo\_1\_Showcase Scene**: Hovering over characters now increases their size (focus effect), and clicking cycles through available material palettes.
 - **New Demo Scene**: Introduced **Demo\_2\_IsoCity**, an isometric view of a town populated with animated characters. A few simple buildings have been added to enhance the package with this scene.
-![](images/disabilities_new.png)
 - **Inclusive Characters**: Added 8 new characters representing people with disabilities, each featuring 3 unique, tailored animations.
 - **CityPeople Script Update**: New method for easy material switching that intelligently replaces materials with the "people\_pal" prefix.
 - **URP Support**: Added Universal Render Pipeline (URP) compatibility with a package that replaces standard materials.
 - **Unity 6 Compatibility**: Fully tested and compatible with Unity 6.
+
+## Characters Specs
+
+- Humanoid system compatible. (Original rig from 3ds Max Biped system)
+- Small texture dimensions 256x256 (Texture as apalette color)
+- 2,000 average triangle count.
+- Characters are most time single optimized mesh, non-modular and without additinal LODs.
 
 ## Getting Started
 
@@ -54,10 +68,11 @@ The **City People Mega-Pack** is designed to populate your urban environments wi
 - **Description**: A beautifully crafted isometric town scene showcasing all animated characters from a top-down orthographic perspective.
 
 ## Character Groups | [WATCH VIDEO!](https://youtu.be/dUjK32yOMVo)
-- (8) **People with disabilities:** Individuals using wheelchairs, crutches, prostetics, etc. **(NEW!)**
+- (8) **People with disabilities:** Individuals using wheelchairs, crutches, prostetics, etc. 
 - (10) **Young adults:** Representing ages from 18 to 30.&#x20;
 - (20) **City:** Everyday city people in casual and business outfits.
-- (20) **Professionals:** Representing common professions.
+- (15) **Professionals:** Representing common professions.
+- (8) **Constrution:** Workers and tradespersons for building and manteniance. **(3 NEW!!)** 
 - (20) **Downtown:** Similar to 'City', but a little bit more fresh and modern.
 - (6) **Kids:** Young boys and girls about 10 to 15 years old.​
 - (10) **Elders:** Older individuals aged about 60-70 years old.
