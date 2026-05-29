@@ -17,5 +17,23 @@ Takes a joined WAV track (which has been edited or processed in your DAW) and au
 
 ---
 
+## Dependencies & Installation
+
+To run these scripts, you need **Python 3** installed on your system along with the following library dependencies and external tools:
+
+### 1. Python Libraries
+The scripts require `numpy`, `soundfile`, and `librosa`. Install them using `pip`:
+```bash
+pip install numpy soundfile librosa
+```
+
+### 2. External Tools
+*   **Rubber Band CLI (`rubberband-r3`)**: Required by `PrepareTokenClips.py` for pitch-shifting and time-stretching.
+    *   Download and install the **Rubber Band Library** command-line utility.
+    *   Ensure the executable (typically `rubberband-r3` or `rubberband`) is added to your system's `PATH`.
+    *   If your executable is named differently (e.g., just `rubberband`), update the `RUBBERBAND_EXE` variable at the top of `PrepareTokenClips.py`.
+
+---
+
 ## Detailed Guide
 For step-by-step instructions on recording, preparing, and importing custom voice banks into Unity, see the main [Adding Custom Voices](../Adding_Custom_Voices.md) guide.

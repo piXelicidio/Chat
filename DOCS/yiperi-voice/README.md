@@ -50,6 +50,8 @@ The quickest way to understand the engine is to review the included demo scenes 
 2. **Demo-1-Dialog.unity**: A showcase of two animated 3D characters conversing. The demo itself acts as a tutorial, explaining how the speech system works as the characters talk.
 3. **Demo-3-Voices.unity**: A showcase demonstrating the 12 available voices and 20 supported languages.
 
+**NOTE**: If Text Mesh Pro isn't already installed in you project you must install TMP Essensial in order to see the UI texts in the demos.
+
 ## Next Steps
 
 - Understand how it works: [How_It_Works.md](How_It_Works.md)
